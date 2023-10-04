@@ -7,13 +7,13 @@ Bienvenue dans SocSport, une application web qui permet aux utilisateurs de rés
 Avant de pouvoir utiliser SocSport sur votre système, vous devez effectuer quelques étapes d'installation. 
 
 ### 0. Prérequis
-Assurez-vous d'avoir PHP installé sur votre machine avec une version compatible (PHP 7.2 ou supérieur). Vous pouvez vérifier si PHP est installé en exécutant php -v dans votre terminal. 
+Assurez-vous d'avoir PHP installé sur votre machine avec une version compatible (PHP 7.2 ou supérieur). Vous pouvez vérifier si PHP est installé en exécutant php -v dans votre terminal. Dans le cas où php n'est pas installé, vous pouvez le faire en suivant les instructions sur le site officiel de PHP : [Installation de PHP](https://www.php.net/).
 
 ### 1. Installation de Symfony
-Si vous n'avez pas Symfony installé sur votre système, vous pouvez le faire en suivant les instructions sur le site officiel de Symfony : Installation de Symfony.
+Si vous n'avez pas Symfony installé sur votre système, vous pouvez le faire en suivant les instructions sur le site officiel de Symfony : [Installation de Symfony](https://symfony.com/doc/current/setup.html).
 
 ### 2. Installation de Composer
-Composer est un gestionnaire de dépendances essentiel pour Symfony. Si vous ne l'avez pas encore installé, suivez les instructions sur le site officiel de Composer : Installation de Composer.
+Composer est un gestionnaire de dépendances essentiel pour Symfony. Si vous ne l'avez pas encore installé, suivez les instructions sur le site officiel de Composer : [Installation de Composer](https://getcomposer.org/download/).
 
 ### 3. Clonage du dépôt GitHub
 Maintenant que Symfony et Composer sont installés, vous pouvez cloner le dépôt GitHub de SocSport sur votre machine locale en utilisant la commande suivante :
