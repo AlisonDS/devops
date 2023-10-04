@@ -19,15 +19,14 @@ Composer est un gestionnaire de dépendances essentiel pour Symfony. Si vous ne 
 Maintenant que Symfony et Composer sont installés, vous pouvez cloner le dépôt GitHub de SocSport sur votre machine locale en utilisant la commande suivante :
 
 ```
-git clone https://github.com/votre-utilisateur/socsport.git
+git clone https://github.com/AlisonDS/devops.git
 ```
-Assurez-vous de remplacer votre-utilisateur par votre nom d'utilisateur GitHub et socsport par le nom du dépôt si nécessaire.
 
 ### 4. Configuration de l'Application
 Une fois le dépôt cloné, accédez au répertoire du projet et installez les dépendances Symfony en exécutant la commande Composer :
 
 ```
-cd socsport
+cd devops
 composer install
 ```
 
