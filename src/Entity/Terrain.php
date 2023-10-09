@@ -66,8 +66,8 @@ class Terrain
 
         return $this;
     }
-    // src/Repository/TerrainRepository.php
 
+    // Obtenir la liste des villes distinctes
     public function findDistinctVilles()
     {
         return $this->createQueryBuilder('t')

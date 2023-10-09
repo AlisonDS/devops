@@ -11,6 +11,7 @@ use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 
 class ChercherTerrainType extends AbstractType
 {
+    // Méthode buildForm() pour définir les champs du formulaire
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
@@ -23,6 +24,7 @@ class ChercherTerrainType extends AbstractType
         ;
     }
 
+    //Méthode configureOptions() pour définir les options du formulaire
     public function configureOptions(OptionsResolver $resolver): void
     {
         $resolver->setDefaults([
