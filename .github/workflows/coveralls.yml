@@ -1,0 +1,38 @@
+name: Coveralls
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  coveralls:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 7.4  # Remplacez par la version de PHP que vous utilisez
+
+      - name: Install Composer
+        run: |
+          curl -sS https://getcomposer.org/installer | php
+          mv composer.phar /usr/local/bin/composer
+
+      - name: Install dependencies
+        run: composer install
+
+      - name: Run tests and generate coverage report
+        run: vendor/bin/phpunit --coverage-clover coverage.xml
+
+      - name: Upload coverage report to Coveralls
+        run: |
+          curl -sL https://github.com/satooshi/php-coveralls/releases/download/v2.2.0/php-coveralls.phar > php-coveralls.phar
+          php php-coveralls.phar --verbose
+
+                    - name: Coveralls GitHub Action
+                uses: coverallsapp/github-action@v2
+            
