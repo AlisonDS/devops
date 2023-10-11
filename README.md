@@ -1,4 +1,4 @@
-[![license: MIT](https://img.shields.io/badge/license-MIT)](https://opensource.org/licenses/MIT)
+[![license: MIT](https://img.shields.io/badge/license-MIT-lime)](https://opensource.org/licenses/MIT)
 
 # SocSport
 
