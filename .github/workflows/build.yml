@@ -16,3 +16,7 @@ jobs:
         run: |
           # Mettez ici les commandes pour construire votre projet
           # Exemple: npm install && npm run build
+
+      - name: Coveralls GitHub Action
+        uses: coverallsapp/github-action@v2
+            
