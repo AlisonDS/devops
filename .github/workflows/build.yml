@@ -16,3 +16,12 @@ jobs:
         run: |
           # Mettez ici les commandes pour construire votre projet
           # Exemple: npm install && npm run build
+
+      -   name: Upload coverage results to Coveralls
+          if: matrix.coverage
+          env:
+              COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              COVERALLS_PARALLEL: true
+              COVERALLS_FLAG_NAME: "${{matrix.os}} | PHP${{matrix.php}} Symfony@${{matrix.symfony || '*'}}"
+          run: php bin/php-coveralls -v --exclude-no-stmt
+
