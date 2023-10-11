@@ -5,6 +5,12 @@
 
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=AlisonDS_devops&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=AlisonDS_devops)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=AlisonDS_devops&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=AlisonDS_devops)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=AlisonDS_devops&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=AlisonDS_devops)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=AlisonDS_devops&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=AlisonDS_devops)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=AlisonDS_devops&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=AlisonDS_devops)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=AlisonDS_devops&metric=bugs)](https://sonarcloud.io/summary/new_code?id=AlisonDS_devops)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=AlisonDS_devops&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=AlisonDS_devops)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=AlisonDS_devops&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=AlisonDS_devops)
 
 
 
