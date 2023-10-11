@@ -1,5 +1,6 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-lime)](https://opensource.org/licenses/MIT)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=AlisonDS_devops&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=AlisonDS_devops)
+[![Build](https://github.com/AlisonDS/devops/actions/workflows/build.yml/badge.svg)](https://github.com/AlisonDS/devops/actions/workflows/build.yml)
 
 # SocSport
 
