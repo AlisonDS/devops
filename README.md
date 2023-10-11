@@ -1,7 +1,7 @@
 [![Build](https://github.com/AlisonDS/devops/actions/workflows/build.yml/badge.svg)](https://github.com/AlisonDS/devops/actions/workflows/build.yml)
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=AlisonDS_devops&metric=coverage)](https://sonarcloud.io/summary/new_code?id=AlisonDS_devops)
-[![Tag](https://img.shields.io/github/v/release/AlisonDS/devops?label=Dernière%20version)](https://github.com/AlisonDS/devops/releases)
+[![test](https://img.shields.io/github/v/release/AlisonDS/devops?label=Dernière%20version)](https://github.com/AlisonDS/devops/releases)
 
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=AlisonDS_devops&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=AlisonDS_devops)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=AlisonDS_devops&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=AlisonDS_devops)
